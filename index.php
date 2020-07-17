@@ -9,12 +9,13 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- web-font -->
   <link rel="stylesheet" href="assets/css/web-font/stylesheet.css">
-  <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
   <!-- Bootstrap -->
-  <!-- <link href="./assets/css/bootstrap/bootstrap.min.css" rel="stylesheet"> -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
   <!-- Core theme CSS -->
   <link href="./assets/css/styles.css" rel="stylesheet" />
+  <link href="./assets/css/animate/animate.css" rel="stylesheet"/>
+
   <!-- lighthouse -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
   
@@ -30,9 +31,9 @@
     </nav>
 
     <div class="landing-text container mx-auto mt-5 text-center">
-      <h1 class="mt-4 animate__animated animate__lightSpeedInRight">Welcome to the happy life</h1>
-      <p class="animate__animated animate__backInLeft">Chakra is an app that Forces you to think positively by deducting N1000 from your account for every negative thought detected.</p>
-      <a href="#email" class="btn btn-primary">GET EARLY ACCESS</a>    
+      <h1 class="mt-4  wow bounceIn">Welcome to the happy life</h1>
+      <p class="wow animate__backInLeft">Chakra is an app that Forces you to think positively by deducting N1000 from your account for every negative thought detected.</p>
+      <a href="#email" class="btn btn-primary wow shakeY">GET EARLY ACCESS</a>    
     </div>
 
     <img class="image-fluid animate__animated animate__infinite	infinite animate__pulse" id="left" src="assets/images/left-bg.svg" alt="bg-image">
@@ -54,11 +55,11 @@
     <!-- <div id="research-bg"></div> -->
     <div class="container" >
       <div class="card-body ">
-        <h1 class="card-title text-white">created with a sprinkle of love</h1>
-        <p class="card-text text-white">Research has shown that people with positive thinking are generally empowered to act and achieve their goals. On the contrary, negative thinking can paralyse us, bringing fears and doubts and preventing us from taking the actions that can get us closer to our goals. Chakra aims at ensuring we live our best life by forcing us to think Positively. Imagine a world where all your goals are achieved. Cool right?</p>
+        <h1 class="card-title text-white wow bounceIn">created with a sprinkle of love</h1>
+        <p class="card-text text-white wow animate__backInLeft">Research has shown that people with positive thinking are generally empowered to act and achieve their goals. On the contrary, negative thinking can paralyse us, bringing fears and doubts and preventing us from taking the actions that can get us closer to our goals. Chakra aims at ensuring we live our best life by forcing us to think Positively. Imagine a world where all your goals are achieved. Cool right?</p>
       </div>
       <div class="card-body text-right">
-        <img class="card-img-top" data-toggle="lightbox" src="assets/images/Group 64.png" alt="Card image cap" data-remote="https://www.youtube.com/embed/b0jqPvpn3sY">
+        <img class="card-img-top" data-toggle="lightbox" src="assets/images/Group 64.png" alt="Card image cap" data-remote="https://www.youtube.com/watch?v=uaIhQ0XiA1c">
       </div>
       <div class="box">
         <div class="one"></div>
@@ -84,7 +85,7 @@
   <!-- steps -->
   <section class="steps">
     <div class="container">
-      <h1>Change your life in 3 easy steps</h1>
+      <h1 class=" wow bounceIn">Change your life in 3 easy steps</h1>
       <p>Explore the goodness of Chakra</p>
     </div>
     
@@ -94,11 +95,11 @@
         <h2>Turn on mood detector</h2>
         <p>Toggle switch to ON for the mood detector to be active.</p>
       </div>
-      <img src="assets/images/White Matte 1.png" alt="">
+      <img class="wow animate__bounceInLeft" src="assets/images/White Matte 1.png" alt="">
     </div>
 
     <div class="wrapper-2">
-      <img src="assets/images/RESULT 2 PHONE 1.png" alt="">
+      <img class="wow animate__bounceInRight" src="assets/images/RESULT 2 PHONE 1.png" alt="">
       <div class="content-2">
         <h2>App detects mood</h2>
         <p>Using AI and haptics the app studies your behaviour and can predict your thoughts based on your mood.</p>
@@ -112,15 +113,15 @@
         <h2>Get Rewarded</h2>
         <p>If the app detects up to 10 Negetive thoughts in one day, N1000 is   deducted from your bank account.</p>
       </div>
-      <img src="assets/images/REWARD PHONE 1.png" alt="">
+      <img class="wow animate__bounceInLeft" src="assets/images/REWARD PHONE 1.png" alt="">
     </div>
   </section>
   <!-- steps ends -->
 
   <section class="screenshots">
     <div class="container">
-      <h1>SCREENSHOTS</h1>
-      <p>Have a view of awesomness</p>
+      <h1 class="wow bounceIn">SCREENSHOTS</h1>
+      <p class="wow animate__backInLeft">Have a view of awesomness</p>
       <div class="text-center my-3">
         <div class="row mx-auto my-5 ">
             <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
@@ -230,19 +231,12 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
 
-
-  <!-- Main Jquery JS -->
-  <!-- <script src="./assets/js/jquery/jquery-3.5.1.min.js"></script> -->
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
-  <!-- Popper JS -->
-  <!-- <script src="./assets/js/popper/popper.min.js"></script> -->
-  <!-- Bootstrap JS -->
-  <!-- <script src="./assets/js/bootstrap.min.js"></script> -->
-  <!-- light-house -->
-  <!-- <script type="text/javascript" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script> -->
-
   <!-- App Js -->
   <script src="./assets/js/app.js"></script>
+  <script src="./assets/js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
 </body>
 
 </html>
