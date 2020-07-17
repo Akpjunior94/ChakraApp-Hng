@@ -52,8 +52,7 @@ $conn->close();
   ?>
 
   <?php if (sendMail()) { ?>
-    <h1>Thank Your for Subscribing to Chakra Newsletter</h1>
-    <p>You will receive an Email when the App is Up and Running.. Thanks and Be Ready</P>
+    <h1>Thank Your for Subscribing to Chakra Newsletter. You will receive an Email when the App is Up and Running.. Thanks and Be Ready</h1>
   <?php } else { ?>
     <p>Oops!!! Sorry you lost way</p>
     <a href="index.php">Go back to homepage</a>
