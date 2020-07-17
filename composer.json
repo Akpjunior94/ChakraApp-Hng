@@ -1,1 +1,7 @@
-{"name" : "chakra"}
+{
+  "name": "chakra-app",
+  "description": "chakra-app",
+  "require": {
+    "silex/silex": "~1.1"
+  }
+}
