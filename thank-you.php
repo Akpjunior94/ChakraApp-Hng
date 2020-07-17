@@ -7,6 +7,9 @@
 </head>
 <body>
   <?php
+  ini_set("SMTP", "aspmx.l.google.com");
+  ini_set("webmaster@chakra.app", "akpjunio4real@gmail.com");
+  
   
 function dbRunQuery ($sql)
 {
