@@ -34,7 +34,7 @@ $conn->close();
 }
   function sendMail()
   {
-    if (empty($_POST['email']) || !filter_var($_POST["email"], FILTER_VALIDATE_EMAIL)){
+    if (!$_POST['email'] || !filter_var($_POST["email"], FILTER_VALIDATE_EMAIL)){
       return false;
     }
     
